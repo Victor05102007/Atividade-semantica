@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atv2</title>
   </head>
-  <>
     <h2>Cadastro do aluno</h2>
     <form>
     <label for="nome">Nome:</label>
@@ -65,16 +64,18 @@
 
     <br />
     <br />
-    <label for="Mensagem">Mensagem</label>
-    <textarea
-      id="Mensagem"
-      name="Mensagem"
-      placeholder="Digite a mensagem para o contato"
-      required
-      rows="4"
-      cols="50"
-    >
-    </textarea>
+    <fieldset>
+        <legend>Envie sua mensagem</legend>
+        <label for="Mensagem">Mensagem</label>
+        <textarea
+          id="Mensagem"
+          name="Mensagem"
+          placeholder="Digite a mensagem para o contato"
+          required
+          rows="4"
+          cols="50"
+        >
+        </textarea></fieldset>
     <br />
     <br />
     <input type="submit" value="Enviar" />
