@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atv2</title>
   </head>
-  <body>
+  <>
     <h2>Cadastro do aluno</h2>
+    <form>
     <label for="nome">Nome:</label>
     <input type="text" name="" id="nome" required />
     <br />
@@ -39,6 +39,8 @@
       name="Telefone"
       id="Telefone"
       placeholder="(xx)xxxxx-xxxx"
+      min="11"
+      maxlength="15"
     />
     <br />
     <br />
@@ -76,5 +78,6 @@
     <br />
     <br />
     <input type="submit" value="Enviar" />
+   </form>
   </body>
 </html>
